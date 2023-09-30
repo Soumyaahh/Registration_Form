@@ -1,0 +1,89 @@
+
+body {
+    font-size: 16px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210501/pngtree-aesthetic-violet-gold-marble-phone-wallpaper-image_691080.jpg");
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .divMain {
+    border-radius: 10px;
+    width: 350px;
+    background-color:rgb(222, 200, 171);
+    border: 1px solid #080505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .row {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .radio_option {
+    border: 1px solid #d68d8d;
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 10px;
+    gap: 7px;
+  }
+  
+  .radio_option label,
+  .radio_option input {
+    display: inline-block;
+    width: auto;
+  }
+  
+  input[type="submit"],
+  #Submit {
+    padding: 7px;
+    background-color: #006dcc;
+    border-color: #016bc1;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 110%;
+    font-weight: bold;
+    border-width: 1px;
+    width: 72%;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  #Submit {
+    background-color: #fff;
+    color: #006dcc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 90%;
+  }
